@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Announcements, BIO 004, June 15, 2026</title>
+<meta name="description" content="Class announcements and resources for BIO 004 Human Anatomy, Solano Community College. Scan a QR code or tap to open each resource.">
+<style>
+@import url('https://cdn.jsdelivr.net/npm/@fontsource-variable/plus-jakarta-sans/index.css');
+:root{
+  --ink:#0B1530; --dark:#060A18; --rust:#8B3A2E; --rust-hover:#A0452F;
+  --gold:#C9A14A; --white:#FFFFFF; --line:#8C90A0;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:'Plus Jakarta Sans Variable','Plus Jakarta Sans',system-ui,sans-serif;
+  background:var(--white);color:var(--ink);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;display:block;}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+.skip-link{position:absolute;top:-100px;left:8px;background:var(--ink);color:#fff;padding:12px 20px;text-decoration:none;font-weight:700;font-size:14px;border-radius:4px;z-index:9999;letter-spacing:0.04em;}
+.skip-link:focus{top:8px;}
+a:focus-visible,button:focus-visible{outline:3px solid var(--rust);outline-offset:3px;border-radius:4px;}
+.footer-section a:focus-visible{outline-color:var(--gold);}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(28px,5vw);padding-right:max(28px,5vw);}
+/* header */
+.site-header{padding:24px 0;border-bottom:0.5px solid rgba(11,21,48,0.10);}
+.site-logo{display:inline-flex;align-items:center;gap:14px;text-decoration:none;}
+.site-logo svg{height:52px;width:auto;}
+.logo-text{display:flex;flex-direction:column;gap:3px;}
+.logo-title{font-size:26px;font-weight:800;letter-spacing:-0.02em;color:var(--ink);line-height:1;}
+.logo-title .logo-accent{color:var(--rust);}
+.logo-sub{font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--ink);opacity:0.72;}
+/* hero */
+.hero{padding:46px 0 14px;}
+.hero-eyebrow{font-size:12px;font-weight:700;color:var(--rust);letter-spacing:0.26em;text-transform:uppercase;margin:0 0 16px;}
+.hero h1{font-size:clamp(32px,5vw,46px);font-weight:800;letter-spacing:-0.025em;line-height:1.08;margin:0 0 14px;}
+.hero h1 .accent{color:var(--rust);}
+.hero p{font-size:17px;line-height:1.6;opacity:0.85;max-width:60ch;margin:0;}
+.hero .scanline{margin-top:14px;font-size:14.5px;color:var(--rust);font-weight:700;letter-spacing:0.02em;}
+/* sections */
+.group{padding:30px 0 6px;}
+.group-eyebrow{font-size:12px;font-weight:700;color:var(--rust);letter-spacing:0.24em;text-transform:uppercase;margin:0 0 16px;padding-bottom:10px;border-bottom:0.5px solid rgba(11,21,48,0.12);}
+.cards{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));}
+.card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:22px 20px 20px;
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+  box-shadow:0 1px 3px rgba(11,21,48,0.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;}
+.card:hover,.card:focus-within{transform:translateY(-3px);box-shadow:0 10px 22px rgba(11,21,48,0.12);border-color:var(--rust);}
+.card-icon{display:flex;align-items:center;justify-content:center;height:62px;margin-bottom:6px;}
+.card-title{font-size:18px;font-weight:800;letter-spacing:-0.01em;color:var(--ink);margin:0 0 4px;line-height:1.25;}
+.card-desc{font-size:14px;line-height:1.5;opacity:0.8;margin:0 0 16px;min-height:42px;}
+/* QR with scanner frame */
+.qr-frame{position:relative;padding:12px;background:var(--white);}
+.qr-frame .qr{width:150px;height:150px;display:block;}
+.qc{position:absolute;width:16px;height:16px;border:3px solid var(--rust);}
+.qc.tl{top:0;left:0;border-right:0;border-bottom:0;}
+.qc.tr{top:0;right:0;border-left:0;border-bottom:0;}
+.qc.bl{bottom:0;left:0;border-right:0;border-top:0;}
+.qc.br{bottom:0;right:0;border-left:0;border-top:0;}
+.scan-label{font-size:11px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--rust);margin:8px 0 16px;}
+.btn{background:var(--rust);color:#fff;padding:11px 22px;border-radius:4px;font-size:12px;font-weight:700;
+  letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background .2s ease;margin-top:auto;}
+.btn:hover{background:var(--rust-hover);}
+/* footer */
+.footer-section{background:var(--dark);margin-top:40px;padding:40px 0 26px;}
+.footer-inner{max-width:1080px;margin:0 auto;padding-left:max(28px,5vw);padding-right:max(28px,5vw);}
+.footer-note{font-size:16px;line-height:1.6;color:#fff;opacity:0.88;max-width:60ch;margin:0 0 22px;}
+.footer-logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;margin-bottom:14px;}
+.footer-logo svg{height:44px;width:auto;}
+.footer-logo .logo-title{color:#fff;font-size:22px;}
+.footer-logo .logo-accent{color:var(--gold);}
+.footer-logo .logo-sub{color:#fff;opacity:0.62;}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;
+  border-top:1px solid rgba(255,255,255,0.16);padding-top:18px;margin-top:6px;}
+.footer-copyright{font-size:12px;font-weight:500;color:#fff;opacity:0.6;letter-spacing:0.03em;}
+.footer-byline{font-size:12px;font-weight:700;color:var(--gold);letter-spacing:0.16em;text-transform:uppercase;}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important;}html{scroll-behavior:auto;}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="https://drsrennie-stack.github.io/new-build-bio4-solano/index.html" class="site-logo" target="_top" aria-label="BIO 004 Human Anatomy, course home">
+      <svg viewBox="40 10 125 148" role="img" aria-hidden="true" focusable="false">
+      <g transform="translate(0, 18)">
+        <g transform="translate(60, 0) rotate(8 0 130)"><circle cx="0" cy="20" r="10" fill="#0B1530"/><path d="M 0,32 C -10,32 -16,36 -16,42 C -16,55 -13,68 -11,82 C -10,100 -12,118 -14,130 L 14,130 C 12,118 10,100 11,82 C 13,68 16,55 16,42 C 16,36 10,32 0,32 Z" fill="#0B1530"/></g>
+        <g transform="translate(100, 0)"><circle cx="0" cy="10" r="11" fill="#8B3A2E"/><path d="M 0,22 C -11,22 -17,26 -17,34 C -17,52 -14,70 -12,86 C -11,108 -13,122 -15,132 L 15,132 C 13,122 11,108 12,86 C 14,70 17,52 17,34 C 17,26 11,22 0,22 Z" fill="#8B3A2E"/></g>
+        <g transform="translate(140, 0) rotate(-8 0 130)"><circle cx="0" cy="20" r="10" fill="#C9A14A"/><path d="M 0,32 C -10,32 -16,36 -16,42 C -16,55 -13,68 -11,82 C -10,100 -12,118 -14,130 L 14,130 C 12,118 10,100 11,82 C 13,68 16,55 16,42 C 16,36 10,32 0,32 Z" fill="#C9A14A"/></g>
+      </g></svg>
+      <span class="logo-text">
+        <span class="logo-title">Human <span class="logo-accent">Anatomy</span></span>
+        <span class="logo-sub">BIO 004 &middot; Solano Community College</span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="hero">
+    <p class="hero-eyebrow">BIO 004 &middot; Human Anatomy &middot; Monday, June 15, 2026</p>
+    <h1>Announcements <span class="accent">for today</span></h1>
+    <p>Great meeting you all today. Here is everything from class in one place: gear, skull models, books, and our study community.</p>
+    <p class="scanline">Point your phone camera at any code, or tap Open link.</p>
+  </section>
+
+  <section class="group" aria-labelledby="g-gear">
+    <h2 class="group-eyebrow" id="g-gear">Lab gear</h2>
+    <ul class="cards">
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 64 64" width="58" height="58" role="img" aria-hidden="true" focusable="false">
+<path d="M24 7 L32 17 L40 7" fill="none" stroke="#8B3A2E" stroke-width="2.6" stroke-linejoin="round"/>
+<path d="M24 7 C16 10 14 16 12 26 L12 57 L52 57 L52 26 C50 16 48 10 40 7 L32 17 Z" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="32" y1="17" x2="32" y2="57" stroke="#0B1530" stroke-width="2.6"/>
+<circle cx="32" cy="30" r="1.7" fill="#8B3A2E"/><circle cx="32" cy="38" r="1.7" fill="#8B3A2E"/><circle cx="32" cy="46" r="1.7" fill="#8B3A2E"/>
+<rect x="38" y="40" width="10" height="11" rx="1.5" fill="none" stroke="#0B1530" stroke-width="2.2"/>
+</svg></span>
+          <h3 class="card-title">Lab Coat</h3>
+          <p class="card-desc">White lab coat for lab days.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAGaCAIAAAC5ZBI0AAAJD0lEQVR4nO3dMY5kMRVAURp1SMw+2P8i2AcxeZGChMyAxzz79jnpqKr+VP2+cvDs//X5fP4A8L4/Tl8AwO8hZ0CEnAERcgZEyBkQIWdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEd87L/7Tn//yu67jEn//218X/3ru/7v+3B1Tv1Hvf7Rj576auien7Nw5VmdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0DE1q6AtXNz4TumJvt3Pnfntefm0dfOvfO5q+r5aX+DVmdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0DEwV0Bay+euz81Yb82dSr/nXsGps7dv/PeWHvxb3DN6gyIkDMgQs6ACDkDIuQMiJAzIELOgAg5AyLkDIgY2xXwonNT1FPvPDUlf8656fz1a8+9853n/d/J6gyIkDMgQs6ACDkDIuQMiJAzIELOgAg5AyLkDIiwK+C/8NMm3c+Z2m9w554BfherMyBCzoAIOQMi5AyIkDMgQs6ACDkDIuQMiJAzIGJsV0DvBPRzk+4773znVe187trUufsv3s8vXvOa1RkQIWdAhJwBEXIGRMgZECFnQIScARFyBkTIGRBxcFdA73z0O0/lnzr//s7XTrnz/9v7G1yzOgMi5AyIkDMgQs6ACDkDIuQMiJAzIELOgAg5AyK+Pp/P9DU848Vp9Z/mzul8/j+szoAIOQMi5AyIkDMgQs6ACDkDIuQMiJAzIELOgIitZwVMnZ3/4qn8vc9de/H33TG1o2DqOQNTf91rVmdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0CEZwX8i6lJ6B13zmffeWb/nTso1u685qn7as3qDIiQMyBCzoAIOQMi5AyIkDMgQs6ACDkDIuQMiBjbFXDntPo5L05gvzidv+POvQp37s1YOzf3v2Z1BkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRHzvvPjFU8ynZtmnvqtz38aOF6957c677s7v6hyrMyBCzoAIOQMi5AyIkDMgQs6ACDkDIuQMiJAzIOLgswLunGZ+8Vz2O7+NO5+6cOdTCNbu/B9NXdXO3W51BkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRBzcFbA2NY9+59z/jqk9A+f0fqMdd17znX+hVmdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0DE1q4Ak+6/7tyk+7nPPefOO6d3VeeeUDH1dIs1qzMgQs6ACDkDIuQMiJAzIELOgAg5AyLkDIiQMyDie+fFU3PDO+9856zznafUT30b586hn7onp/Yb3LnP4RyrMyBCzoAIOQMi5AyIkDMgQs6ACDkDIuQMiJAzIGJrV8A5d+4ouPN89HPOfRu9uf9z/6MXd1/sfO4OqzMgQs6ACDkDIuQMiJAzIELOgAg5AyLkDIiQMyDi6/P5/M8vvnNOeuqq1qaeMzC1V+HOOfipq7rzbt9x51+K1RkQIWdAhJwBEXIGRMgZECFnQIScARFyBkTIGRBxcFfAjhdn93/aboS1O3eMrJ37Ffh1dgUAyBlQIWdAhJwBEXIGRMgZECFnQIScARFyBkR8n3vrn/asAJPu/+zcboQXz+zf0bvbz90bVmdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0DEwV0Ba+emiu+col67c8b6nHO/ws69sePcnXPn3P/Oa8/dz1ZnQIScARFyBkTIGRAhZ0CEnAERcgZEyBkQIWdAxNfn8zn01i+eUv/iWfJrL+5zeNGdd92Oc7P7dgUA/AdyBkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEQd3BaxNTULfOYG9484nCbx4VWsvPoNi7c77eYfVGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRMgZEDG2K2DH1Cnma3d+7tS0+p3v3HtywtRdd45nBQDIGVAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRGztCpiaot4xtaPgzrnwtanz/u/8Ju+coT/n3O6Lc6zOgAg5AyLkDIiQMyBCzoAIOQMi5AyIkDMgQs6AiIPPCrhzbnjtzjPs13zPv/7OvWcFTLlzl4vVGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRMgZEPE9fQH/3p0z9OvXvjjb/aI7n1Bx5z6HHefu9nPXbHUGRMgZECFnQIScARFyBkTIGRAhZ0CEnAERcgZEbO0KODevfOdJ5FPOzcG/uPtibWrCfmpHwbl3fvEvxeoMiJAzIELOgAg5AyLkDIiQMyBCzoAIOQMi5AyI2NoVcOck9LmJ8x13zlhP/YIvPrFh6sz+tan7+c4nNlidARFyBkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEVu7AnZMTVG/OAd/p3On8k89Z2Bqwn7t3L1x52T/DqszIELOgAg5AyLkDIiQMyBCzoAIOQMi5AyIkDMgYmtXwJ1T1DvuPPF96uz8F3duvPgLvvi5a1N3ndUZECFnQIScARFyBkTIGRAhZ0CEnAERcgZEyBkQcfBZAXeef//iToYXz92fMvVdrfVO5Z/6JteszoAIOQMi5AyIkDMgQs6ACDkDIuQMiJAzIELOgIiDuwLWXpyTvnOfw9qd38bUr39uWv3ctzG1N2Nqj4RnBQDIGVAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRIztCnjRznz21In+Lz4NYGr3xZ3f5J13ztrUd2V1BkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRNgV8NvcOTU+9c5TJ82f89M+d23n9z13x1qdARFyBkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEWO7AqbOg99x7vT0tTvnwtfu3KuwdufOjZ2revHO2WF1BkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRBzcFdCbSL5zanzqne/Uu+t2TD2/Yuedd+5YqzMgQs6ACDkDIuQMiJAzIELOgAg5AyLkDIiQMyDi6/P5TF8DwG9gdQZEyBkQIWdAhJwBEXIGRMgZECFnQIScARFyBkTIGRAhZ0CEnAERcgZEyBkQIWdAhJwBEXIGRMgZECFnQMQ/AMxktRGtGRfGAAAAAElFTkSuQmCC" alt="QR code linking to the Lab Coat on Amazon" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://www.amazon.com/gp/product/B08VDHGLKB/ref=sw_img_1?smid=&th=1&psc=1" target="_blank" rel="noopener">Open link<span class="sr-only"> for Lab Coat, opens in a new tab</span></a>
+        </li>
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 64 64" width="58" height="58" role="img" aria-hidden="true" focusable="false">
+<rect x="20" y="15" width="5" height="22" rx="2.5" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.4"/>
+<rect x="26.5" y="11" width="5" height="26" rx="2.5" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.4"/>
+<rect x="33" y="13" width="5" height="24" rx="2.5" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.4"/>
+<rect x="39.5" y="17" width="5" height="20" rx="2.5" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.4"/>
+<rect x="11" y="25" width="5" height="15" rx="2.5" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.4" transform="rotate(-32 13.5 32)"/>
+<path d="M18 31 H46 V46 a6 6 0 0 1 -6 6 H24 a6 6 0 0 1 -6 -6 Z" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="20" y="49" width="24" height="8" rx="2" fill="#C9A14A" stroke="#0B1530" stroke-width="2.2"/>
+</svg></span>
+          <h3 class="card-title">EMS Gloves</h3>
+          <p class="card-desc">Nitrile exam gloves for dissection.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAAFyCAIAAABnRsZeAAAHsElEQVR4nO3dO7IkNRBAUYYYE5t9sP9FsA9s/MbFkoGuSFX1Of7r+nTPDRkZOT8+n88vAJ1fp28AeBtZAWKyAsRkBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYrICxH7u/PFvv/9R3ccl/v7rz5Hrrt/kzl2d++Sd656zfqKp9/xEO2/DaQWIyQoQkxUgJitATFaAmKwAMVkBYrICxGQFiG1N2a5NTayuTU1DPnHqdOeTd/723Czs1G/y2/4tOK0AMVkBYrICxGQFiMkKEJMVICYrQExWgJisALGDU7Zr5yb8pvaz3jl1OrXL9tx077nJ4Pft/Z2a7nVaAWKyAsRkBYjJChCTFSAmK0BMVoCYrAAxWQFiY1O273PnrOTUXOnUllxu4LQCxGQFiMkKEJMVICYrQExWgJisADFZAWKyAsRM2T7AuV22O9ddOzehe+55TfdWnFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQExWgNjYlO23TTSee95z+2jPMUf7b3fe1Q6nFSAmK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgdnDKdmca8ol2ZkN35izPXfd9f7t27jv6tn8LTitATFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQOzH5/OZvofHeOIW1alp17UnTp2+b+PsOU4rQExWgJisADFZAWKyAsRkBYjJChCTFSAmK0Bsa5ft1M7Rc9b3PPVE56Zd16ae99z87tQe3ClTk8FOK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgJitA7OAu26kpTBtY321qBnfnk9fOzf6asgVeQlaAmKwAMVkBYrICxGQFiMkKEJMVICYrQOzgLtu1O/fCrr1vCvPcdc+9q6k3ufNE5667867OzeA6rQAxWQFisgLEZAWIyQoQkxUgJitATFaAmKwAsYO7bKecm1lcm9obeu55nzjde+6657zviZxWgJisADFZAWKyAsRkBYjJChCTFSAmK0BMVoDY2JTtucnCHXdub53aobt2boLzie9557o77nwbTitATFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQOznuY/+tjnac3twd+7qic87tct2bWrP8c51p96V0woQkxUgJitATFaAmKwAMVkBYrICxGQFiMkKENvaZTs1V3ruk9+3y3bnujum5krv3Pu79sR3tea0AsRkBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEDk7ZTs3R8m/ve893znbvXHfH1Hz2mtMKEJMVICYrQExWgJisADFZAWKyAsRkBYjJChDbmrJdu3P+786tsXfu0N3xxO/32+Z3z/2unFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQExWgNilu2zv3KK6NjVJeee22nNv432eOKG75rQCxGQFiMkKEJMVICYrQExWgJisADFZAWKyAsR+Tl14agfnE2cWp3bZnnuiJ97zuV/Onb/nHU4rQExWgJisADFZAWKyAsRkBYjJChCTFSAmK0Bsa5ftjqnJwqkNu3dOQ07tDH7i23jfLOzazm/DaQWIyQoQkxUgJitATFaAmKwAMVkBYrICxGQFiG1N2d45dzg1oXvOt00VT93zlCf+JtecVoCYrAAxWQFisgLEZAWIyQoQkxUgJitATFaA2MEp2x3n5junPvnOScon3tW3fYNPnFd2WgFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYmO7bN/3yTvuvKtz7nzeO+do75z9XXNaAWKyAsRkBYjJChCTFSAmK0BMVoCYrAAxWQFiP6cuPDVn+b6J1bVzE5znpj/v3N66/tupufAddtkCjyErQExWgJisADFZAWKyAsRkBYjJChCTFSA2NmW7dm6ycO3c5Oid112bmlh94l7Ytam54SlOK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgJitAbGvKdmca8tt2yu64c2vsnc69q3O/2DunqHc4rQAxWQFisgLEZAWIyQoQkxUgJitATFaAmKwAsa0p22+b0XziVtE7vW9i9dx23idyWgFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYj8+n89//uMnThbu3PPUJtRz9/zEueFzb/Lcddfe956dVoCYrAAxWQFisgLEZAWIyQoQkxUgJitATFaA2NYu2x3nJgunpnvPTbue++QdU9Ou5yZl15/8vlnYc5xWgJisADFZAWKyAsRkBYjJChCTFSAmK0BMVoDY2JTt+0xNYU5tyZ365B1TW4HXpt7Vues6rQAxWQFisgLEZAWIyQoQkxUgJitATFaAmKwAMVO2/5OdCc5z11174vTn1JbcqQ27O9/CuW/QaQWIyQoQkxUgJitATFaAmKwAMVkBYrICxGQFiI1N2d75P92vvW9S9tx1d5x7z3f+6u7csLvDaQWIyQoQkxUgJitATFaAmKwAMVkBYrICxGQFiB2csj03dTplaqvo1J7Utanv984nOjcL+8QZXKcVICYrQExWgJisADFZAWKyAsRkBYjJChCTFSD24/P5TN8D8CpOK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQExWgJisALF/AEHU+Ul9xZn/AAAAAElFTkSuQmCC" alt="QR code linking to the EMS Gloves on Amazon" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://www.amazon.com/dp/B0C3SSXL4K?th=1&psc=1" target="_blank" rel="noopener">Open link<span class="sr-only"> for EMS Gloves, opens in a new tab</span></a>
+        </li>
+    </ul>
+  </section>
+
+  <section class="group" aria-labelledby="g-skulls">
+    <h2 class="group-eyebrow" id="g-skulls">Skull models</h2>
+    <ul class="cards">
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 64 64" width="58" height="58" role="img" aria-hidden="true" focusable="false">
+<path d="M16 29 a16 16 0 0 1 32 0 v7 a6 6 0 0 1 -4 5.7 l-1 5.6 a3 3 0 0 1 -3 2.7 h-2 v-4 h-4 v4 h-4 v-4 h-4 v4 h-2 a3 3 0 0 1 -3 -2.7 l-1 -5.6 a6 6 0 0 1 -4 -5.7 z" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="25" cy="29" r="4.6" fill="#0B1530"/>
+<circle cx="39" cy="29" r="4.6" fill="#0B1530"/>
+<path d="M32 33 l-3.2 6 h6.4 z" fill="#8B3A2E"/>
+</svg></span>
+          <h3 class="card-title">Skull Model, Option 1</h3>
+          <p class="card-desc">Evotech Scientific anatomical skull.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,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" alt="QR code linking to the Evotech skull model on Amazon" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://www.amazon.com/Evotech-Scientific-Anatomical-Medical-Quality/dp/B08MXR5M1Y" target="_blank" rel="noopener">Open link<span class="sr-only"> for Skull Model, Option 1, opens in a new tab</span></a>
+        </li>
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 64 64" width="58" height="58" role="img" aria-hidden="true" focusable="false">
+<path d="M16 29 a16 16 0 0 1 32 0 v7 a6 6 0 0 1 -4 5.7 l-1 5.6 a3 3 0 0 1 -3 2.7 h-2 v-4 h-4 v4 h-4 v-4 h-4 v4 h-2 a3 3 0 0 1 -3 -2.7 l-1 -5.6 a6 6 0 0 1 -4 -5.7 z" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.6" stroke-linejoin="round"/>
+<circle cx="25" cy="29" r="4.6" fill="#0B1530"/>
+<circle cx="39" cy="29" r="4.6" fill="#0B1530"/>
+<path d="M32 33 l-3.2 6 h6.4 z" fill="#8B3A2E"/>
+</svg></span>
+          <h3 class="card-title">Skull Model, Option 2</h3>
+          <p class="card-desc">Skillssist numbered skull model.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,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" alt="QR code linking to the Skillssist skull model on Amazon" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://www.amazon.com/Skillssist-Numbered-Human-Skull-Model/dp/B0C4D4XKKY" target="_blank" rel="noopener">Open link<span class="sr-only"> for Skull Model, Option 2, opens in a new tab</span></a>
+        </li>
+    </ul>
+  </section>
+
+  <section class="group" aria-labelledby="g-books">
+    <h2 class="group-eyebrow" id="g-books">Books &amp; study</h2>
+    <ul class="cards">
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 64 64" width="58" height="58" role="img" aria-hidden="true" focusable="false">
+<path d="M32 17 C26 13 18 13 12 15 V48 C18 46 26 46 32 50 C38 46 46 46 52 48 V15 C46 13 38 13 32 17 Z" fill="#FFFFFF" stroke="#0B1530" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="32" y1="17" x2="32" y2="50" stroke="#0B1530" stroke-width="2.6"/>
+<path d="M16 23 H28 M16 29 H28 M16 35 H26 M36 23 H48 M36 29 H48 M38 35 H48" stroke="#8B3A2E" stroke-width="2" stroke-linecap="round"/>
+</svg></span>
+          <h3 class="card-title">Photographic Atlas</h3>
+          <p class="card-desc">Cadaver photos and anatomical images.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,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" alt="QR code linking to A Photographic Atlas for Anatomy and Physiology on Amazon" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://www.amazon.com/Photographic-Atlas-Anatomy-Physiology/dp/0321869257" target="_blank" rel="noopener">Open link<span class="sr-only"> for Photographic Atlas, opens in a new tab</span></a>
+        </li>
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 64 64" width="58" height="58" role="img" aria-hidden="true" focusable="false">
+<path d="M16 39 V31 a16 16 0 0 1 32 0 V39" fill="none" stroke="#0B1530" stroke-width="2.8" stroke-linecap="round"/>
+<rect x="11" y="37" width="9" height="15" rx="3.5" fill="#8B3A2E" stroke="#0B1530" stroke-width="2.4"/>
+<rect x="44" y="37" width="9" height="15" rx="3.5" fill="#8B3A2E" stroke="#0B1530" stroke-width="2.4"/>
+</svg></span>
+          <h3 class="card-title">Make It Stick</h3>
+          <p class="card-desc">How learning really works. Audiobook.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAAFyCAIAAABnRsZeAAAHwElEQVR4nO3cMW4kNxRFUcuY0LH34f0vwvtw7Ly9AAPEYHiJzyqdk6u7VS1dMHjg1+fz+Q2g8/v0BwDeRlaAmKwAMVkBYrICxGQFiMkKEJMVICYrQExWgJisADFZAWKyAsRkBYjJChCTFSAmK0BMVoCYrACxHzs//Meff1Wf4xL//vP3L//s+mmce+W1qd/o3N/Gufed+o7utPM0nFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQExWgNjWynZtZ6V3zhPXkOee5NTT2FnKnlszn3Pnpzr37TutADFZAWKyAsRkBYjJChCTFSAmK0BMVoCYrACxgyvbtam7TnfsfOYn3rE69SSnNrhT+90n/i+sOa0AMVkBYrICxGQFiMkKEJMVICYrQExWgJisALGxlS0/b2f9eW6xuuPc2vWJdxW/j9MKEJMVICYrQExWgJisADFZAWKyAsRkBYjJChCzsr3Cudtqp24zndrR3nlb7XfjtALEZAWIyQoQkxUgJitATFaAmKwAMVkBYrICxMZWtu9bNJ67Y/V997Oe+/afuMF93/+C0woQkxUgJitATFaAmKwAMVkBYrICxGQFiMkKEDu4sn3fNvROd978eufPTrnzU53jtALEZAWIyQoQkxUgJitATFaAmKwAMVkBYrICxL4+n8/0Z3iMna3k1H2l5/adO7/R1I72fbfG3slpBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIba1s33fn6J3L0aknee4zn/O+b2HH1LfgtALEZAWIyQoQkxUgJitATFaAmKwAMVkBYrICxA6ubNe+24Jz55V33Lkb3jH1G+288tqd+92dp+G0AsRkBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEfpx76SfeG/q+neV3u2N16i7bJ66Zz30LTitATFaAmKwAMVkBYrICxGQFiMkKEJMVICYrQGzrLtu1O/d/a3feobt250bzznXv2nd7Vla2wGPIChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIHVzZ7ji3dr3zle/8VOdM/b7nvO/25Z1XdloBYrICxGQFiMkKEJMVICYrQExWgJisADFZAWJbK9up22rvfN/37SzPufPW2DsXq3d+R2tOK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgJitA7MfUG++sEneWlFML3XOvPHVb7dQ9uGvfbe1659+z0woQkxUgJitATFaAmKwAMVkBYrICxGQFiMkKEDu4sn3f3a5Td6zuuPP+3Tu//XOmtrBTT8NpBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIfX0+n0MvfW7fObUNXXviPalr79tJT90Le+eNs+fu/XVaAWKyAsRkBYjJChCTFSAmK0BMVoCYrAAxWQFiWyvbJ25D187tDqd2lnd+R2vvW2CvPXGhu+a0AsRkBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEDq5sbUN/3hOf5BPvWD1n6jnfucF1WgFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYj92fnhq73jnvnPnZ6duYH3iza9T39HU07jzW1hzWgFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYmN32d65HJ3a70658zvacec9uHf+te+88prTChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIyQoQ27rLdu3OZeETd7Q7n/ncznLqTtm1qfedeuW1qRW10woQkxUgJitATFaAmKwAMVkBYrICxGQFiMkKEDu4sn3isvDcBnfqFtW1qRt2p25gndrRPnGDu8NpBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIHVzZru2sA+9cFq7dudG8cxu686nOvfLa1Hr7Tk4rQExWgJisADFZAWKyAsRkBYjJChCTFSAmK0BsbGX73dauU8vgJ25w184953Oe+Kl2vkGnFSAmK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUg9vX5fKY/w2Oc20qeuxf23PvumPrMdz6rO5ffVrbARWQFiMkKEJMVICYrQExWgJisADFZAWKyAsS27rK984bOHetl4bl957m949TOcuqm26m/yanfd8e5T+W0AsRkBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEtla2a3cuC3dWmDtLyp2169qdd6yee9873fk0pr5BpxUgJitATFaAmKwAMVkBYrICxGQFiMkKEJMVIHZwZbt2bkn5xHXvuVtjd3y3O3R37huecm69vcNpBYjJChCTFSAmK0BMVoCYrAAxWQFisgLEZAWIja1s3+eJO9qd9z237zx3s++53+jOZfC5911zWgFisgLEZAWIyQoQkxUgJitATFaAmKwAMVkBYla2mXMbzScudNem9qxr71sGT3FaAWKyAsRkBYjJChCTFSAmK0BMVoCYrAAxWQFiX5/P55d/+In7v/d95inn7ljdcecieepZTf09O60AMVkBYrICxGQFiMkKEJMVICYrQExWgJisALGDd9neuQ3dMXVf6ZRzd6ye2zrfue6delZTm3KnFSAmK0BMVoCYrAAxWQFisgLEZAWIyQoQkxUgtnWXLcD/Oa0AMVkBYrICxGQFiMkKEJMVICYrQExWgJisADFZAWKyAsRkBYjJChCTFSAmK0BMVoCYrAAxWQFisgLE/gPtKA6x1PKHugAAAABJRU5ErkJggg==" alt="QR code linking to the Make It Stick audiobook on Audible" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://www.audible.com/pd/Make-It-Stick-Audiobook/B00M0EO7EY" target="_blank" rel="noopener">Open link<span class="sr-only"> for Make It Stick, opens in a new tab</span></a>
+        </li>
+    </ul>
+  </section>
+
+  <section class="group" aria-labelledby="g-comm">
+    <h2 class="group-eyebrow" id="g-comm">Study community</h2>
+    <ul class="cards">
+        <li class="card">
+          <span class="card-icon"><svg viewBox="0 0 127.14 96.36" width="58" height="46" role="img" aria-hidden="true" focusable="false">
+<path fill="#0B1530" d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
+</svg></span>
+          <h3 class="card-title">Josh Roy Tutor Discord</h3>
+          <p class="card-desc">Practice questions, exams, and study tips.</p>
+          <div class="qr-frame">
+            <span class="qc tl"></span><span class="qc tr"></span><span class="qc bl"></span><span class="qc br"></span>
+            <img class="qr" src="data:image/png;base64,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" alt="QR code linking to the Josh Roy ASC tutor Discord invite" width="150" height="150">
+          </div>
+          <span class="scan-label">Scan to open</span>
+          <a class="btn" href="https://discord.com/invite/S57GV9ekdW" target="_blank" rel="noopener">Open link<span class="sr-only"> for Josh Roy Tutor Discord, opens in a new tab</span></a>
+        </li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer-section">
+  <div class="footer-inner">
+    <p class="footer-note">I look forward to working with you this term. Please reach out anytime with questions.</p>
+    <a href="https://drsrennie-stack.github.io/new-build-bio4-solano/index.html" class="footer-logo" target="_top" aria-label="BIO 004 Human Anatomy, course home">
+      <svg viewBox="40 10 125 148" role="img" aria-hidden="true" focusable="false">
+      <g transform="translate(0, 18)">
+        <g transform="translate(60, 0) rotate(8 0 130)"><circle cx="0" cy="20" r="10" fill="#FFFFFF"/><path d="M 0,32 C -10,32 -16,36 -16,42 C -16,55 -13,68 -11,82 C -10,100 -12,118 -14,130 L 14,130 C 12,118 10,100 11,82 C 13,68 16,55 16,42 C 16,36 10,32 0,32 Z" fill="#0B1530"/></g>
+        <g transform="translate(100, 0)"><circle cx="0" cy="10" r="11" fill="#8B3A2E"/><path d="M 0,22 C -11,22 -17,26 -17,34 C -17,52 -14,70 -12,86 C -11,108 -13,122 -15,132 L 15,132 C 13,122 11,108 12,86 C 14,70 17,52 17,34 C 17,26 11,22 0,22 Z" fill="#8B3A2E"/></g>
+        <g transform="translate(140, 0) rotate(-8 0 130)"><circle cx="0" cy="20" r="10" fill="#C9A14A"/><path d="M 0,32 C -10,32 -16,36 -16,42 C -16,55 -13,68 -11,82 C -10,100 -12,118 -14,130 L 14,130 C 12,118 10,100 11,82 C 13,68 16,55 16,42 C 16,36 10,32 0,32 Z" fill="#C9A14A"/></g>
+      </g></svg>
+      <span class="logo-text">
+        <span class="logo-title">Human <span class="logo-accent">Anatomy</span></span>
+        <span class="logo-sub">BIO 004 &middot; Solano Community College</span>
+      </span>
+    </a>
+    <div class="footer-bottom">
+      <div class="footer-copyright">BIO 004 Human Anatomy &middot; Solano Community College &middot; Summer 2026</div>
+      <div class="footer-byline">Dr. Sharilyn Rennie</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  /* iframe height-sender: keeps the embed sized to its content */
+  (function () {
+    var FRAME_ID = 'bio004-announcements-2026-06-15';
+    function sendHeight() {
+      var h = Math.max(document.documentElement.scrollHeight, document.body ? document.body.scrollHeight : 0);
+      parent.postMessage({ type: 'resize', id: FRAME_ID, height: h }, '*');
+    }
+    window.addEventListener('load', sendHeight);
+    window.addEventListener('resize', sendHeight);
+    if (window.ResizeObserver) { new ResizeObserver(sendHeight).observe(document.body); }
+  })();
+</script>
+</body>
+</html>
